@@ -5,5 +5,5 @@
 !*.js
 !*.py
 !*.md
-!*/
-!*/target/
+!.gitignore
+!.gitkeep
