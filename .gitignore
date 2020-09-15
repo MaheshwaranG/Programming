@@ -4,7 +4,8 @@
 !*.c
 !*.cpp
 !*.js
-!*.py
+!*.sh
+!*.bash
 !*.md
 !.gitignore
 !.gitkeep
