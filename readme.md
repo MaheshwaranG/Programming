@@ -107,3 +107,36 @@ Step 2: Those instructions are processe and executed line by line. if any error 
 | Java                  | Shell Scripting        |
 
 ---
+
+# Exec Commands
+
+**To execute a c program run following command:**
+
+Compile:
+`gcc <path_to_program_file.c> -o <output_path_file>`
+
+Execute:
+`.<output_path_file>`
+
+**To execute a c++ program run following command:**
+
+Compile:
+`g++ <path_to_program_file.cpp> -o <output_path_file>`
+
+Execute:
+`.<output_path_file>`
+
+**To execute a java program run following command: (if target folder is not there, create it)**
+
+Compile:
+`javac <path_to_program_file.java> -d <output_path_file>`
+
+Execute:
+`cd <output_path>`
+`java <file>`
+
+Python:
+`python <path_to_program_file.py>`
+
+Javascript or Nodejs:
+`nodejs <path_to_program_file.js>`
