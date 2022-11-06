@@ -1,6 +1,9 @@
 
 # Two Characters
-### stringprogram, mediumprogram
+
+## mediumprogram
+
+### stringprogram
 
 https://www.hackerrank.com/challenges/two-characters/problem?isFullScreen=false
 
@@ -17,3 +20,13 @@ If we delete a and f, the resulting string is bebeeeb. This is not a valid strin
 Other cases are solved similarly.
 
 babab is the longest string we can create.
+
+--- 
+Sample Input:
+10
+beabeefeab
+
+Output:
+5
+---
+

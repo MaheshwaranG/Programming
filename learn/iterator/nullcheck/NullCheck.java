@@ -6,7 +6,7 @@ import java.util.Objects;
 public class NullCheck {
 
     public static void main(String args[]) {
-        ArrayList strList = new ArrayList<String>();
+        ArrayList<String> strList = new ArrayList<>();
         strList.add("");
         strList.add("B");
         if(!( strList == null || strList.isEmpty())){
