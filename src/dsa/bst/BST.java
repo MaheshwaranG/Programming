@@ -1,3 +1,5 @@
+package dsa.bst;
+
 import java.util.Scanner;
 
 public class BST {

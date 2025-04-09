@@ -133,7 +133,13 @@ Compile:
 
 Execute:
 `cd <output_path>`
+`java -cp bin Solution`
 `java <file>`
+
+Example:
+`javac -d bin src/dsa/bst/BST.java`
+`java -cp bin dsa.bst.BST`
+
 
 Python:
 `python <path_to_program_file.py>`

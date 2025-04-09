@@ -9,3 +9,17 @@
 !*.md
 !.gitignore
 !.gitkeep
+
+# Java class files
+*.class
+*.jar
+
+# Python cache
+__pycache__/
+*.pyc
+
+# C/C++ binaries (if added later)
+*.o
+*.exe
+*.out
+bin/
