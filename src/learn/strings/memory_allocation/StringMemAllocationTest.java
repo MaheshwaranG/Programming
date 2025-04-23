@@ -1,3 +1,5 @@
+package learn.strings.memory_allocation;
+
 import java.util.*;
 
 public class StringMemAllocationTest {

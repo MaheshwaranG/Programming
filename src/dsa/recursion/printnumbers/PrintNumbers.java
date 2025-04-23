@@ -1,3 +1,5 @@
+package dsa.recursion.printnumbers;
+
 import java.util.Scanner;
 
 public class PrintNumbers {

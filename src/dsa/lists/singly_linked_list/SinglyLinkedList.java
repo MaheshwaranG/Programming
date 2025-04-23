@@ -1,3 +1,5 @@
+package dsa.lists.singly_linked_list;
+
 import java.lang.*;
 import java.util.Objects;
 

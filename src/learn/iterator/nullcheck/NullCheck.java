@@ -1,3 +1,5 @@
+package learn.iterator.nullcheck;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Iterator;
@@ -9,13 +11,13 @@ public class NullCheck {
         ArrayList strList = new ArrayList<String>();
         strList.add("");
         strList.add("B");
-        if(!( strList == null || strList.isEmpty())){
+        if (!(strList == null || strList.isEmpty())) {
             System.out.println("Collection is Not Empty.");
             Iterator<String> itr = getIterator(strList);
-            if(Objects.nonNull(itr) && itr.hasNext()){
+            if (Objects.nonNull(itr) && itr.hasNext()) {
                 String s = itr.next();
-                System.out.println("First Element is : "+ s);
-            } else { 
+                System.out.println("First Element is : " + s);
+            } else {
                 System.out.println("No Elements");
             }
 
@@ -24,8 +26,8 @@ public class NullCheck {
         }
     }
 
-    public static Iterator<String> getIterator(ArrayList<String> list){
-        if(list.size() == 1){
+    public static Iterator<String> getIterator(ArrayList<String> list) {
+        if (list.size() == 1) {
             return null;
         }
         return list.iterator();

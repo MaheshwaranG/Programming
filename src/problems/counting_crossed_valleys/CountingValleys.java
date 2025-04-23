@@ -1,3 +1,5 @@
+package problems.counting_crossed_valleys;
+
 import java.util.Scanner;
 
 public class CountingValleys {

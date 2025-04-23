@@ -1,3 +1,5 @@
+package dsa.recursion.factorial;
+
 import java.util.Scanner;
 
 public class Factorial {
